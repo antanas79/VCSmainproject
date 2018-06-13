@@ -1,4 +1,4 @@
-
+<!-- 
   <main>
     // INTRO SECTION STARTS
     <section class="intro" id=#Home>
@@ -254,3 +254,4 @@
   <!-- INTRO SECTION ENDS -->
 
   </main>  -->
+ -->
