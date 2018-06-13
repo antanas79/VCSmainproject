@@ -1,0 +1,2531 @@
+/* header styles */
+header {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0px 0px 0px 0px;
+}
+
+header a, header i, header h1 {
+  padding: 8px 16px;
+  color: white;
+  /* teksto spalva */
+  text-decoration: none;
+  /*nuima pabraukima*/
+  letter-spacing: 1px;
+  /*tarpai tarp raidziu*/
+}
+
+header a:hover {
+  /*kai uzvedama pele ant a, taikome stilius */
+  background-color: #cccccc;
+  /*fonas*/
+  color: black;
+}
+
+header .container.flex-container div.paper-escape {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+header .container.flex-container div.paper-escape div.paper-logo {
+  font-size: 26px;
+}
+
+header .container.flex-container div.paper-escape div.paper-logo i {
+  padding-right: 11px;
+}
+
+header .container.flex-container div.paper-escape div.escape {
+  margin: 0 auto;
+}
+
+header .container.flex-container div.paper-escape div.escape h1 {
+  font-size: 19px;
+  padding-left: 0px;
+}
+
+header .container.flex-container nav ul {
+  margin: 0 auto;
+}
+
+header .container.flex-container nav ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container.flex-container div.burger-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1vh 1vw 1vh 1vw;
+}
+
+header .container.flex-container div.burger-menu div.bar1, header .container.flex-container div.burger-menu div.bar2, header .container.flex-container div.burger-menu div.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 4px 0;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+/* header end */
+/*middle section*/
+section.middle {
+  color: #fffff;
+}
+
+/* section intro begins*/
+section.intro {
+  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/bridge-image-compressed.jpg'); */
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+section.intro div.container.flex-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  color: white;
+  padding-bottom: 125px;
+}
+
+section.intro div.container.flex-container div:nth-child(1) {
+  padding-top: 225px;
+  padding-bottom: 45px;
+}
+
+section.intro div.container.flex-container div:nth-child(1) h2 {
+  font-size: 23px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
+section.intro div.container.flex-container div:nth-child(2) {
+  padding-bottom: 85px;
+}
+
+section.intro div.container.flex-container div:nth-child(2) h3 {
+  font-size: 70px;
+}
+
+section.intro div.container.flex-container div:nth-child(3) {
+  padding-bottom: 125px;
+}
+
+section.intro div.container.flex-container div:nth-child(3) button {
+  margin: 0;
+  border: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: 1.3em;
+  cursor: pointer;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 30px 10px 30px;
+  outline: none;
+  width: 240px;
+  border-radius: 5px;
+}
+
+section.intro div.container.flex-container div:nth-child(3) button:hover {
+  color: grey;
+}
+
+/* section intro ends*/
+/*main-services section begings here*/
+div.main-services {
+  padding: 100px 0px 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.main-services div.main-services-icon {
+  padding: 11px 0px 15px 72px;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+div.main-services div.main-services-icon span, div.main-services div.main-services-icon i {
+  display: block;
+  font-size: 198px;
+  color: #e0e0e0;
+}
+
+div.main-services div.main-services-icon span, div.main-services div.main-services-icon i {
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+div.main-services div.main-services-title-text div.main-services-title {
+  margin-bottom: 30px;
+}
+
+div.main-services div.main-services-title-text div.main-services-title h6 {
+  font-size: 44px;
+  font-weight: lighter;
+}
+
+div.main-services div.main-services-title-text div.main-services-title span {
+  font-weight: bold;
+}
+
+div.main-services div.main-services-title-text div.main-services-text p:nth-child(1) {
+  margin-bottom: 35px;
+}
+
+div.main-services:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+div.main-services:nth-child(even) div.main-services-icon {
+  padding: 11px 72px 15px 0px;
+}
+
+div.main-services:nth-child(even) div.main-services-icon i {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+/*main-services section ends here*/
+/*services section begings here*/
+div.services {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+div.services ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+div.services ul li {
+  width: 49%;
+  margin-bottom: 50px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+div.services ul li div.services-icon {
+  margin-right: 20px;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+div.services ul li div.services-icon div.icon-circle i {
+  padding: 0px 0px 0px 0px;
+  font-size: 30px;
+}
+
+div.services ul li div.services-icon div.icon-circle i:hover {
+  opacity: 0.5;
+}
+
+div.services ul li div.services-name-text {
+  margin-left: 2%;
+}
+
+div.services ul li div.services-name-text div.services-name {
+  padding-bottom: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+div.services ul li div.services-name-text div.services-text {
+  max-width: 340px;
+  color: #999999;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* service section ends here */
+/*awesome-clients section begings here*/
+div.awesome-clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+div.awesome-clients img:hover {
+  opacity: 0.5;
+}
+
+div.awesome-clients div.upperText h6:nth-child(1) {
+  padding-bottom: 14px;
+  font-size: 47px;
+}
+
+div.awesome-clients div.upperText h6:nth-child(1) span {
+  font-weight: bold;
+}
+
+div.awesome-clients div.upperText h6:nth-child(2) {
+  padding-bottom: 56px;
+  text-align: center;
+}
+
+div.awesome-clients div.text-foto:nth-child(2) {
+  width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+div.awesome-clients div.text-foto:nth-child(2) div.foto {
+  background-color: #fffff;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 0px 0px 0px 0px;
+  display: block;
+}
+
+div.awesome-clients div.text-foto:nth-child(2) div.foto img {
+  height: 100%;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+div.awesome-clients div.text-foto:nth-child(2) div.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  -ms-flex-direction: display;
+  flex-direction: display;
+  -ms-flex-item-align: center;
+  align-self: center;
+  border: 1px solid #e0e0d1;
+  padding: 40px 80px 40px 80px;
+  background-color: white;
+}
+
+div.awesome-clients div.text-foto:nth-child(2) div.text::before {
+  content: '';
+  z-index: 1;
+  left: -50px;
+  top: 26px;
+  position: absolute;
+  border-top: 30px solid transparent;
+  border-right: 50px solid #e0e0d1;
+  border-bottom: 30px solid transparent;
+}
+
+div.awesome-clients div.text-foto:nth-child(2) div.text::after {
+  content: '';
+  z-index: 1;
+  left: -48px;
+  top: 26px;
+  position: absolute;
+  border-top: 30px solid transparent;
+  border-right: 50px solid white;
+  border-bottom: 30px solid transparent;
+}
+
+div.awesome-clients div.text-foto:nth-child(2) div.text div.quatation {
+  font-size: 20px;
+  width: 480px;
+}
+
+div.awesome-clients div.text-foto:nth-child(2) div.text div.author {
+  margin-top: 18px;
+  font-size: 12px;
+  color: #7690c5;
+}
+
+div.awesome-clients div.text-foto:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 50px;
+  display: flex;
+}
+
+div.awesome-clients div.text-foto:nth-child(3) div.foto {
+  background-color: #fffff;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 0px 0px 0px 0px;
+  display: block;
+}
+
+div.awesome-clients div.text-foto:nth-child(3) div.foto img {
+  height: 100%;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+div.awesome-clients div.text-foto:nth-child(3) div.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  -ms-flex-direction: display;
+  flex-direction: display;
+  -ms-flex-item-align: center;
+  align-self: center;
+  border: 1px solid #e0e0d1;
+  padding: 40px 80px 40px 80px;
+  background-color: white;
+}
+
+div.awesome-clients div.text-foto:nth-child(3) div.text::before {
+  content: '';
+  z-index: 1;
+  right: -50px;
+  top: 26px;
+  position: absolute;
+  border-top: 30px solid transparent;
+  border-left: 50px solid #e0e0d1;
+  border-bottom: 30px solid transparent;
+}
+
+div.awesome-clients div.text-foto:nth-child(3) div.text::after {
+  content: '';
+  z-index: 1;
+  right: -48px;
+  top: 26px;
+  position: absolute;
+  border-top: 30px solid transparent;
+  border-left: 50px solid white;
+  border-bottom: 30px solid transparent;
+}
+
+div.awesome-clients div.text-foto:nth-child(3) div.text div.quatation {
+  font-size: 20px;
+  width: 480px;
+}
+
+div.awesome-clients div.text-foto:nth-child(3) div.text div.author {
+  margin-top: 18px;
+  font-size: 12px;
+  color: #7690c5;
+}
+
+/*awesome-clients ends here*/
+/*logos section begings here*/
+div.logos {
+  margin-top: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+div.logos div.logo img {
+  height: 40px;
+  width: 132px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
+
+/*logos section ends here*/
+/* middle section ends here */
+/* amazing-team starts here */
+div.amazing-team {
+  padding-top: 100px;
+  background-color: #111111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+div.amazing-team div.upperText {
+  margin-bottom: 73px;
+}
+
+div.amazing-team div.upperText h6:nth-child(1) {
+  color: white;
+  font-size: 47px;
+  margin-bottom: 5px;
+}
+
+div.amazing-team div.upperText h6:nth-child(1) span {
+  font-weight: bold;
+}
+
+div.amazing-team div.upperText h6:nth-child(2) {
+  color: #636363;
+}
+
+div.amazing-team div.team-members {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+div.amazing-team div.team-members div.member {
+  color: #ffffff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 45px;
+  padding-bottom: 45px;
+}
+
+div.amazing-team div.team-members div.member div.foto {
+  overflow: hidden;
+  background-color: black;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 8px solid #ffffff;
+}
+
+div.amazing-team div.team-members div.member div.foto img {
+  height: 100%;
+  max-width: 100%;
+}
+
+div.amazing-team div.team-members div.member div.foto img:hover {
+  opacity: 0.5;
+  -webkit-filter: grayscale(0.5);
+  filter: grayscale(0.5);
+}
+
+div.amazing-team div.team-members div.member div.name {
+  padding: 22px 0px 13px 0px;
+}
+
+div.amazing-team div.team-members div.member div.name h6 {
+  font-weight: bold;
+}
+
+div.amazing-team div.team-members div.member div.contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+div.amazing-team div.team-members div.member div.contact-info div {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+div.amazing-team div.team-members div.member div.contact-info div span {
+  font-size: 20px;
+  margin: auto;
+  cursor: pointer;
+}
+
+div.amazing-team div.team-members div.member div.contact-info div span:hover {
+  color: grey;
+}
+
+div.amazing-team div.bottomText {
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 98px;
+  font-size: 16px;
+}
+
+div.amazing-team div.bottomText h6:nth-child(1) {
+  padding-bottom: 9px;
+}
+
+/* amazing-team ends here */
+/* footer section starts here */
+footer {
+  max-width: 100%;
+  background-color: #809fff;
+  padding: 100px 230px 0px 230px;
+  color: white;
+}
+
+footer div.text-form {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+footer div.text-form div.text {
+  max-width: 49%;
+  margin-right: 60px;
+}
+
+footer div.text-form div.text div.contacts {
+  padding-top: 47px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+footer div.text-form div.text div.contacts div.contact-row {
+  padding-bottom: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+footer div.text-form div.text div.contacts div.contact-row div.contact {
+  cursor: pointer;
+  width: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+footer div.text-form div.text div.contacts div.contact-row div.contact div.icon i {
+  font-size: 20px;
+  padding: 0px 10px 0px 0px;
+}
+
+footer div.text-form div.text div.contacts div.contact-row div.contact div.icon i:hover {
+  color: grey;
+}
+
+footer div.text-form div.text h6.heading {
+  padding-bottom: 19px;
+  font-size: 60px;
+}
+
+footer div.text-form div.text h6.heading span {
+  font-weight: bold;
+}
+
+footer div.text-form div.text h6.subheading {
+  line-height: 22px;
+}
+
+footer div.text-form div.form {
+  max-width: 49%;
+}
+
+footer div.text-form div.form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+footer div.text-form div.form form input:nth-child(1), footer div.text-form div.form form input:nth-child(2), footer div.text-form div.form form button {
+  margin-bottom: 23px;
+  padding: 17px 24px 17px 24px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 20%;
+}
+
+footer div.text-form div.form form input:nth-child(3) {
+  margin-bottom: 23px;
+  padding: 17px 0px 80px 24px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+footer div.text-form div.form button {
+  text-align: center;
+  color: grey;
+  cursor: pointer;
+}
+
+footer div.text-form div.form button:hover {
+  opacity: 0.7;
+}
+
+footer div.line {
+  border-top: 1px solid white;
+  text-align: center;
+  margin-top: 100px;
+  padding: 30px 0px 30px 0px;
+}
+
+/* footer section ends here */
+/* @MEDIA starts here*/
+/*
+/*burger menu*/
+.display {
+  /* display:block!important; */
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  /* flex-direction: column!important; */
+}
+
+.display ul {
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.display ul li a {
+  padding: 1vh 1vw 1vh 1vw;
+  font-size: 0.6rem;
+}
+
+.spaceEvenly {
+  width: 100%;
+}
+
+.spaceEvenly div:nth-child(1), .spaceEvenly div:nth-child(2) {
+  width: 33%;
+}
+
+.spaceEvenly nav {
+  width: 33%;
+}
+
+.position {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-item-align: start !important;
+  align-self: flex-start !important;
+}
+
+/*burger menu*/
+/* @MEDIA starts here*/
+@media (max-width: 320px) {
+  body {
+    width: 100vw;
+  }
+  header div.container.flex-container nav {
+    display: none;
+  }
+  header div.container.flex-container div.paper-escape div.paper-logo i {
+    font-size: 1.5rem;
+    padding-left: 4vw;
+  }
+  header div.container.flex-container div.paper-escape div.escape {
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  header div.container.flex-container div.paper-escape div.escape h1 {
+    margin: 0 auto;
+    font-size: 0.7rem;
+    padding: 0px 0px 0px 0px;
+  }
+  main section.intro {
+    width: 100vw;
+  }
+  main section.intro div.container.flex-container {
+    padding-bottom: 15vh;
+  }
+  main section.intro div.container.flex-container div:nth-child(1) {
+    padding-top: 38vh;
+  }
+  main section.intro div.container.flex-container div:nth-child(1) h2 {
+    font-size: 0.5rem;
+  }
+  main section.intro div.container.flex-container div:nth-child(2) h3 {
+    font-size: 1.6rem;
+  }
+  main section.middle div.container {
+    width: 100vw;
+  }
+  main section.middle div.container div.main-services {
+    padding: 0px 0px 0px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  main section.middle div.container div.main-services div.main-services-icon {
+    text-align: left;
+    padding: 5vh 5vw 5vh 5vw;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.main-services div.main-services-icon i {
+    font-size: 8rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-title h6 {
+    font-size: 1.2rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-text p:nth-child(1) {
+    margin-bottom: 35px;
+  }
+  main section.middle div.container div.services ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  main section.middle div.container div.services ul li {
+    width: 90vw;
+    padding-bottom: 1vh;
+    margin-bottom: 7vh;
+  }
+  main section.middle div.container div.services ul li div.services-icon {
+    width: 35%;
+    margin-right: 1vw;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-name {
+    padding-bottom: 1vh;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-text {
+    margin-right: 0px;
+  }
+  main section.middle div.container div.awesome-clients {
+    margin-top: 15vh;
+  }
+  main section.middle div.container div.awesome-clients div.upperText {
+    text-align: center;
+  }
+  main section.middle div.container div.awesome-clients div.upperText h6:nth-child(1) {
+    font-size: 1.7rem;
+  }
+  main section.middle div.container div.awesome-clients div.upperText h6:nth-child(2) {
+    font-size: 1rem;
+    padding-bottom: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 98vw;
+    margin-top: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.foto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-bottom: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text {
+    text-align: center;
+    padding: 1vh 1vw 1vw 1vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text div.quatation {
+    width: 98%;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text h6 {
+    width: 98%;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text::before {
+    display: none;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text::after {
+    display: none;
+  }
+  main section.middle div.container div.logos {
+    margin: 15vh 0vh 10vh 0vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  main section.middle div.container div.logos div.logo {
+    width: 45%;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 2vh 2vw 2vw 2vh;
+  }
+  main section.middle div.container div.logos div.logo img {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  main section.middle div.amazing-team {
+    width: 100vw;
+  }
+  main section.middle div.amazing-team div.upperText {
+    text-align: center;
+    margin-bottom: 7vh;
+  }
+  main section.middle div.amazing-team div.upperText h6:nth-child(1) {
+    font-size: 1.9rem;
+  }
+  main section.middle div.amazing-team div.upperText h6:nth-child(2) {
+    font-size: 0.9rem;
+  }
+  main section.middle div.amazing-team div.team-members {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  main section.middle div.amazing-team div.team-members div.member {
+    margin-left: 0px;
+  }
+  main section.middle div.amazing-team div.bottomText h6 {
+    font-size: 0.9rem;
+  }
+  footer {
+    padding: 5vh 0px 0px 0px;
+    width: 100%;
+  }
+  footer div.text-form.container.flex-container div.text-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text {
+    max-width: 100%;
+    margin: 0px 0px 0px 0px;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text h6.heading {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts {
+    padding-top: 2vh;
+    text-align: center;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row {
+    padding-bottom: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact {
+    width: 100%;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form {
+    padding-top: 2vh;
+    max-width: 100%;
+  }
+  footer div.line {
+    margin-top: 7vh;
+  }
+  footer div.line h6 {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 573px) {
+  body {
+    width: 100vw;
+  }
+  header div.container.flex-container nav {
+    display: none;
+  }
+  header div.container.flex-container div.paper-escape div.paper-logo i {
+    font-size: 1.5rem;
+    padding-left: 5vw;
+  }
+  header div.container.flex-container div.paper-escape div.escape {
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  header div.container.flex-container div.paper-escape div.escape h1 {
+    margin: 0 auto;
+    font-size: 0.7rem;
+    padding: 0px 0px 0px 0px;
+  }
+  main section.intro {
+    width: 100vw;
+  }
+  main section.intro div.container.flex-container {
+    padding-bottom: 15vh;
+  }
+  main section.intro div.container.flex-container div:nth-child(1) {
+    padding-top: 38vh;
+  }
+  main section.intro div.container.flex-container div:nth-child(1) h2 {
+    font-size: 0.5rem;
+  }
+  main section.intro div.container.flex-container div:nth-child(2) h3 {
+    font-size: 1.6rem;
+  }
+  main section.middle div.container {
+    width: 100vw;
+  }
+  main section.middle div.container div.main-services {
+    padding: 0px 0px 0px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  main section.middle div.container div.main-services div.main-services-icon {
+    text-align: left;
+    padding: 5vh 5vw 5vh 5vw;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.main-services div.main-services-icon i {
+    font-size: 8rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-title h6 {
+    font-size: 1.2rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-text p:nth-child(1) {
+    margin-bottom: 35px;
+  }
+  main section.middle div.container div.services ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  main section.middle div.container div.services ul li {
+    width: 98vw;
+    padding-bottom: 1vh;
+    margin-bottom: 7vh;
+    margin-left: 2vw;
+  }
+  main section.middle div.container div.services ul li div.services-icon {
+    width: 20vw;
+    margin-right: 1vh;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.services ul li div.services-name-text {
+    width: 70vw;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-name {
+    padding-bottom: 1vh;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-text {
+    max-width: 98%;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-text h6 {
+    width: 100%;
+  }
+  main section.middle div.container div.awesome-clients {
+    margin-top: 15vh;
+  }
+  main section.middle div.container div.awesome-clients div.upperText {
+    text-align: center;
+  }
+  main section.middle div.container div.awesome-clients div.upperText h6:nth-child(1) {
+    font-size: 1.7rem;
+  }
+  main section.middle div.container div.awesome-clients div.upperText h6:nth-child(2) {
+    font-size: 0.9rem;
+    padding-bottom: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 98vw;
+    margin-top: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.foto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-bottom: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text {
+    text-align: center;
+    padding: 1vh 1vw 1vh 1vw;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text div.quatation {
+    width: 98%;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text h6 {
+    width: 98%;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text::before {
+    display: none;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text::after {
+    display: none;
+  }
+  main section.middle div.container div.logos {
+    margin: 15vh 0vw 10vh 0vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  main section.middle div.container div.logos div.logo {
+    width: 45%;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 2vh 2vw 2vh 2vw;
+  }
+  main section.middle div.container div.logos div.logo img {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  main section.middle div.amazing-team {
+    width: 100vw;
+  }
+  main section.middle div.amazing-team div.upperText {
+    text-align: center;
+    margin-bottom: 7vh;
+  }
+  main section.middle div.amazing-team div.upperText h6:nth-child(1) {
+    font-size: 1.9rem;
+  }
+  main section.middle div.amazing-team div.upperText h6:nth-child(2) {
+    font-size: 0.9rem;
+  }
+  main section.middle div.amazing-team div.team-members {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  main section.middle div.amazing-team div.team-members div.member {
+    margin-left: 0px;
+  }
+  main section.middle div.amazing-team div.bottomText h6 {
+    font-size: 0.9rem;
+  }
+  footer {
+    padding: 5vh 0px 0px 0px;
+    width: 100%;
+  }
+  footer div.text-form.container.flex-container div.text-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text {
+    max-width: 100%;
+    margin: 0px 0px 0px 0px;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text h6.heading {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts {
+    padding-top: 2vh;
+    text-align: center;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row {
+    padding-bottom: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact {
+    width: 100%;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form {
+    padding-top: 2vh;
+    max-width: 100%;
+  }
+  footer div.line {
+    margin-top: 7vh;
+  }
+  footer div.line h6 {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 573px) {
+  div.burger-menu {
+    display: none;
+  }
+  main section.intro > div.container.flex-container div:nth-child(1) h2 {
+    font-size: 0.8rem;
+  }
+  main section.intro > div.container.flex-container div:nth-child(2) h3 {
+    font-size: 2rem;
+  }
+  main > section.middle > div.container > div.services > ul > li > div.services-icon {
+    margin-left: 1vw;
+    width: 14vw;
+  }
+  main > section.middle > div.container > div.services > ul > li > div.services-name-text {
+    width: 84vw;
+  }
+  main section.middle div.container div.logos {
+    margin-top: 10vh;
+    padding: 0vh 1vw 0vh 1vw;
+  }
+  main section.middle div.container div.logos div.logo {
+    width: 20vw;
+  }
+  main section.middle div.container div.services ul {
+    width: 100vw;
+  }
+  main section.middle div.container div.services ul li {
+    height: auto;
+    width: 96%;
+    padding-bottom: 1vh;
+    margin: 1vh 1vw 1vh 1vw;
+  }
+  main section.middle div.container div.services ul li div.services-icon {
+    width: 16vw;
+    margin-right: 1vh;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.services ul li div.services-name-text {
+    width: 73vw;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-name {
+    padding-bottom: 1vh;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-text {
+    margin-right: 0vw;
+    max-width: 100%;
+    padding-bottom: 1vh;
+  }
+}
+
+@media (min-width: 573px) and (max-width: 668px) {
+  body {
+    width: 100vw;
+  }
+  header div.container.flex-container div.burger-menu {
+    display: none;
+  }
+  header div.container.flex-container div.paper-escape div.paper-logo i {
+    font-size: 1.5rem;
+  }
+  header div.container.flex-container div.paper-escape div.escape {
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  header div.container.flex-container div.paper-escape div.escape h1 {
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 0px 0px 0px 0px;
+  }
+  main section.intro {
+    width: 100vw;
+  }
+  main section.intro div.container.flex-container div:nth-child(1) h2 {
+    font-size: 1rem;
+  }
+  main section.intro div.container.flex-container div:nth-child(2) h3 {
+    font-size: 3rem;
+  }
+  main section.middle div.container {
+    width: 100vw;
+  }
+  main section.middle div.container div.main-services {
+    margin: 0vh 2vw 0vh 2vw;
+  }
+  main section.middle div.container div.main-services div.main-services-icon {
+    text-align: left;
+    padding: 2vh 2vw 2vh 2vw;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.main-services div.main-services-icon i {
+    font-size: 8rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-title {
+    margin-bottom: 30px;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-title h6 {
+    font-size: 1.8rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-text p:nth-child(1) {
+    margin-bottom: 35px;
+  }
+  main section.middle div.container div.services ul {
+    width: 100vw;
+  }
+  main section.middle div.container div.services ul li {
+    height: auto;
+    width: 48%;
+    padding-bottom: 1vh;
+    margin: 1vh 1vw 1vh 1vw;
+  }
+  main section.middle div.container div.services ul li div.services-icon {
+    width: 20vw;
+    margin-right: 1vh;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.services ul li div.services-name-text {
+    width: 80vw;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-name {
+    padding-bottom: 1vh;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-text {
+    padding-bottom: 1vh;
+  }
+  main section.middle div.container div.awesome-clients {
+    margin-top: 15vh;
+  }
+  main section.middle div.container div.awesome-clients div.upperText {
+    text-align: center;
+  }
+  main section.middle div.container div.awesome-clients div.upperText h6:nth-child(1) {
+    font-size: 1.7rem;
+  }
+  main section.middle div.container div.awesome-clients div.upperText h6:nth-child(2) {
+    font-size: 1rem;
+    padding-bottom: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto {
+    width: 98vw;
+    margin-top: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.foto {
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-bottom: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text {
+    width: 60%;
+    text-align: center;
+    padding: 1vh 1vh 1vh 1vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text div.quatation {
+    width: 98%;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text h6 {
+    width: 98%;
+  }
+  main section.middle div.container div.logos {
+    margin: 15vh 0vw 10vh 0vw;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  main section.middle div.container div.logos div.logo {
+    width: 24%;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 2vh 2vh 2vh 2vh;
+  }
+  main section.middle div.container div.logos div.logo img {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  main section.middle div.amazing-team {
+    width: 100vw;
+  }
+  main section.middle div.amazing-team div.upperText {
+    text-align: center;
+    margin-bottom: 7vh;
+  }
+  main section.middle div.amazing-team div.upperText h6:nth-child(1) {
+    font-size: 1.9rem;
+  }
+  main section.middle div.amazing-team div.upperText h6:nth-child(2) {
+    font-size: 0.9rem;
+  }
+  main section.middle div.amazing-team div.team-members div.member {
+    margin: 0vh 0vw 0vh 0vw;
+  }
+  main section.middle div.amazing-team div.bottomText h6 {
+    font-size: 0.9rem;
+  }
+  footer {
+    padding: 5vh 0px 0px 0px;
+    width: 100%;
+  }
+  footer div.text-form.container.flex-container div.text-form {
+    width: 100vw;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text {
+    max-width: 49%;
+    margin: 0px 2vw 0px 0px;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text h6.heading {
+    font-size: 1.6rem;
+    padding-bottom: 5vh;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text h6.subheading {
+    font-size: 0.8rem;
+    padding-bottom: 3vh;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts {
+    padding-top: 1vh;
+    text-align: center;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row {
+    padding-bottom: 0vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact {
+    width: 100%;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact div.contact-text h6 {
+    padding: 0px 0px 0px 0px;
+    font-size: 0.85rem;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact div.icon i {
+    padding: 0vh 1vw 0vh 0vw;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form {
+    max-width: 49%;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input {
+    font-size: 0.8rem;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(1), footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(2) {
+    padding: 2vh 0vw 2vh 2vw;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(3) {
+    padding: 2vh 0vw 10vh 2vw;
+  }
+  footer div.line {
+    margin-top: 7vh;
+  }
+  footer div.line h6 {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 669px) and (max-width: 991px) {
+  body {
+    width: 100vw;
+  }
+  header div.container.flex-container div.burger-menu {
+    display: none;
+  }
+  header div.container.flex-container div.paper-escape div.paper-logo i {
+    font-size: 1.5rem;
+  }
+  header div.container.flex-container div.paper-escape div.escape {
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  header div.container.flex-container div.paper-escape div.escape h1 {
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 0px 0px 0px 0px;
+  }
+  main section.intro div.container.flex-container div:nth-child(1) h2 {
+    font-size: 1rem;
+  }
+  main section.intro div.container.flex-container div:nth-child(2) h3 {
+    font-size: 3rem;
+  }
+  main section.middle div.container div.main-services {
+    margin: 0vh 2vw 0vh 2vw;
+  }
+  main section.middle div.container div.main-services div.main-services-icon {
+    text-align: left;
+    padding: 2vh 2vw 2vh 2vw;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.main-services div.main-services-icon i {
+    font-size: 8rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-title {
+    margin-bottom: 30px;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-title h6 {
+    font-size: 1.8rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-text p:nth-child(1) {
+    margin-bottom: 35px;
+  }
+  main section.middle div.container div.services ul {
+    max-width: 100%;
+  }
+  main section.middle div.container div.services ul li {
+    width: 47%;
+    padding-bottom: 1vh;
+    margin: 1vh 1vw 1vh 1vw;
+  }
+  main section.middle div.container div.services ul li div.services-icon {
+    width: 20%;
+    margin-right: 1vh;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.services ul li div.services-name-text {
+    width: 80%;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-name {
+    padding-bottom: 1vh;
+  }
+  main section.middle div.container div.awesome-clients {
+    margin-top: 15vh;
+  }
+  main section.middle div.container div.awesome-clients div.upperText {
+    text-align: center;
+  }
+  main section.middle div.container div.awesome-clients div.upperText h6:nth-child(1) {
+    font-size: 1.7rem;
+  }
+  main section.middle div.container div.awesome-clients div.upperText h6:nth-child(2) {
+    font-size: 1rem;
+    padding-bottom: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto {
+    width: 100%;
+    margin-top: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.foto {
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-bottom: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text {
+    width: 60%;
+    text-align: center;
+    padding: 1vh 1vw 1vh 1vw;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text div.quatation {
+    width: 98%;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text h6 {
+    width: 98%;
+  }
+  main section.middle div.container div.logos {
+    margin: 15vh 0vw 10vh 0vw;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  main section.middle div.container div.logos div.logo {
+    width: 24%;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 2vh 2vh 2vh 2vh;
+  }
+  main section.middle div.container div.logos div.logo img {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  main section.middle div.amazing-team {
+    width: 100vw;
+  }
+  main section.middle div.amazing-team div.upperText {
+    text-align: center;
+    margin-bottom: 7vh;
+  }
+  main section.middle div.amazing-team div.upperText h6:nth-child(1) {
+    font-size: 1.9rem;
+  }
+  main section.middle div.amazing-team div.upperText h6:nth-child(2) {
+    font-size: 0.9rem;
+  }
+  main section.middle div.amazing-team div.team-members div.member {
+    margin: 1vh 1vw 1vh 1vw;
+  }
+  main section.middle div.amazing-team div.bottomText h6 {
+    font-size: 0.9rem;
+  }
+  footer {
+    padding: 5vh 0px 0px 0px;
+    width: 100%;
+  }
+  footer div.text-form.container.flex-container div.text-form {
+    width: 100vw;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text {
+    max-width: 49%;
+    margin: 0px 2vw 0px 0px;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text h6.heading {
+    font-size: 1.6rem;
+    padding-bottom: 5vh;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text h6.subheading {
+    font-size: 0.8rem;
+    padding-bottom: 4vh;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts {
+    padding-top: 2vh;
+    text-align: center;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row {
+    padding-bottom: 5vh;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact {
+    width: 100%;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact div.contact-text h6 {
+    padding: 0px 0px 0px 0px;
+    font-size: 0.85rem;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact div.icon i {
+    padding: 0vh 1vw 0vh 0vw;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form {
+    max-width: 49%;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input {
+    font-size: 0.8rem;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(1), footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(2) {
+    padding: 2vh 0vw 2vh 2vw;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(3) {
+    padding: 2vh 0vw 10vh 2vw;
+  }
+  footer div.line {
+    margin-top: 7vh;
+  }
+  footer div.line h6 {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1280px) {
+  body {
+    width: 100vw;
+  }
+  header div.container.flex-container div.burger-menu {
+    display: none;
+  }
+  header div.container.flex-container div.paper-escape div.paper-logo i {
+    font-size: 1.5rem;
+  }
+  header div.container.flex-container div.paper-escape div.escape {
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  header div.container.flex-container div.paper-escape div.escape h1 {
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 0px 0px 0px 0px;
+  }
+  main section.intro {
+    width: 100vw;
+  }
+  main section.intro div.container.flex-container div:nth-child(1) h2 {
+    font-size: 1rem;
+  }
+  main section.intro div.container.flex-container div:nth-child(2) h3 {
+    font-size: 3rem;
+  }
+  main section.middle div.container div.main-services {
+    margin: 0vh 2vw 0vh 2vw;
+  }
+  main section.middle div.container div.main-services div.main-services-icon {
+    text-align: left;
+    padding: 2vh 2vw 2vh 2vw;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.main-services div.main-services-icon i {
+    font-size: 8rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-title {
+    margin-bottom: 30px;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-title h6 {
+    font-size: 1.8rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-text p:nth-child(1) {
+    margin-bottom: 35px;
+  }
+  main section.middle div.container div.services ul {
+    max-width: 100%;
+  }
+  main section.middle div.container div.services ul li {
+    width: 49%;
+    padding-bottom: 1vh;
+  }
+  main section.middle div.container div.services ul li div.services-icon {
+    width: 20%;
+    margin-right: 1vh;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.services ul li div.services-name-text {
+    width: 80%;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-name {
+    padding-bottom: 1vh;
+  }
+  main section.middle div.container div.awesome-clients {
+    margin-top: 15vh;
+  }
+  main section.middle div.container div.awesome-clients div.upperText {
+    text-align: center;
+  }
+  main section.middle div.container div.awesome-clients div.upperText h6:nth-child(1) {
+    font-size: 1.7rem;
+  }
+  main section.middle div.container div.awesome-clients div.upperText h6:nth-child(2) {
+    font-size: 1rem;
+    padding-bottom: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto {
+    width: 100%;
+    margin-top: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.foto {
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-bottom: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text {
+    width: 60%;
+    text-align: center;
+    padding: 1vh 1vh 1vh 1vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text div.quatation {
+    width: 98%;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text h6 {
+    width: 98%;
+  }
+  main section.middle div.container div.logos {
+    margin: 15vh 0vw 10vh 0vw;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  main section.middle div.container div.logos div.logo {
+    width: 24%;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 2vh 2vh 2vh 2vh;
+  }
+  main section.middle div.container div.logos div.logo img {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  main section.middle div.amazing-team div.upperText {
+    text-align: center;
+    margin-bottom: 7vh;
+  }
+  main section.middle div.amazing-team div.upperText h6:nth-child(1) {
+    font-size: 1.9rem;
+  }
+  main section.middle div.amazing-team div.upperText h6:nth-child(2) {
+    font-size: 0.9rem;
+  }
+  main section.middle div.amazing-team div.team-members {
+    max-width: 940px;
+  }
+  main section.middle div.amazing-team div.team-members div.member {
+    margin: 1vh 1vw 1vh 1vw;
+  }
+  main section.middle div.amazing-team div.bottomText h6 {
+    font-size: 0.9rem;
+  }
+  footer {
+    padding: 5vh 0px 0px 0px;
+  }
+  footer div.text-form.container.flex-container {
+    max-width: 940px;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text {
+    max-width: 49%;
+    margin: 0px 2vw 0px 0px;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text h6.heading {
+    font-size: 2rem;
+    padding-bottom: 5vh;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text h6.subheading {
+    font-size: 1.2rem;
+    padding-bottom: 3vh;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts {
+    padding-top: 2vh;
+    text-align: center;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row {
+    padding-bottom: 5vh;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact {
+    width: 100%;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact div.contact-text h6 {
+    padding: 0px 0px 0px 0px;
+    font-size: 1rem;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact div.icon i {
+    padding: 0vh 1vw 0vh 0vw;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form {
+    max-width: 49%;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input {
+    font-size: 0.8rem;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(1), footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(2) {
+    padding: 2vh 0vw 2vh 2vw;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(3) {
+    padding: 2vh 0vw 10vh 2vw;
+  }
+  footer div.line {
+    margin-top: 7vh;
+  }
+  footer div.line h6 {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+  .container {
+    max-width: 1200px;
+  }
+  header div.container.flex-container div.burger-menu {
+    display: none;
+  }
+  header div.container.flex-container div.paper-escape div.paper-logo i {
+    font-size: 2rem;
+  }
+  header div.container.flex-container div.paper-escape div.escape {
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  header div.container.flex-container div.paper-escape div.escape h1 {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 0px 0px 0px 0px;
+  }
+  header div.container.flex-container nav ul li a {
+    font-size: 1.1rem;
+  }
+  main section.intro div.container.flex-container div:nth-child(1) h2 {
+    font-size: 1.4rem;
+  }
+  main section.intro div.container.flex-container div:nth-child(2) h3 {
+    font-size: 4rem;
+  }
+  main section.middle div.container div.main-services {
+    padding-top: 8vh;
+  }
+  main section.middle div.container div.main-services div.main-services-icon {
+    text-align: left;
+    padding: 2vh 2vw 2vh 2vw;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.main-services div.main-services-icon i {
+    font-size: 9rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-title {
+    margin-bottom: 30px;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-title h6 {
+    font-size: 2.2rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-text p {
+    font-size: 1.1rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-text p:nth-child(1) {
+    margin-bottom: 35px;
+  }
+  main section.middle div.container div.services ul {
+    padding-top: 10vh;
+    max-width: 100%;
+  }
+  main section.middle div.container div.services ul li {
+    width: 49%;
+    padding-top: 1vh;
+    margin-bottom: 5vh;
+  }
+  main section.middle div.container div.services ul li div.services-icon {
+    width: 15%;
+    margin-right: 1vh;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.services ul li div.services-name-text {
+    width: 85%;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-name {
+    padding-bottom: 1vh;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-name h6 {
+    font-size: 1.6rem;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-text {
+    max-width: 100%;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-text h6 {
+    font-size: 1.4rem;
+  }
+  main section.middle div.container div.awesome-clients {
+    margin-top: 15vh;
+  }
+  main section.middle div.container div.awesome-clients div.upperText {
+    padding-bottom: 5vh;
+    text-align: center;
+  }
+  main section.middle div.container div.awesome-clients div.upperText h6:nth-child(1) {
+    font-size: 2.3rem;
+  }
+  main section.middle div.container div.awesome-clients div.upperText h6:nth-child(2) {
+    font-size: 1.7rem;
+    padding-bottom: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto {
+    padding-bottom: 3vh;
+    width: 100%;
+    margin-top: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.foto {
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-bottom: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text {
+    width: 60%;
+    text-align: center;
+    padding: 3vh 3vw 3vh 3vw;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text div.quatation {
+    width: 98%;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text div.quatation h6 {
+    font-size: 1.5rem;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text div.author h6 {
+    font-size: 1.5rem;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text h6 {
+    width: 98%;
+  }
+  main section.middle div.container div.logos {
+    margin: 15vh 0vw 10vh 0vw;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  main section.middle div.container div.logos div.logo {
+    width: 24%;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 2vh 2vh 2vh 2vh;
+  }
+  main section.middle div.container div.logos div.logo img {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  main section.middle div.amazing-team {
+    padding-top: 4vh;
+  }
+  main section.middle div.amazing-team div.upperText {
+    text-align: center;
+    margin-bottom: 7vh;
+  }
+  main section.middle div.amazing-team div.upperText h6:nth-child(1) {
+    padding-top: 2vh;
+    font-size: 3rem;
+    padding-bottom: 2vh;
+  }
+  main section.middle div.amazing-team div.upperText h6:nth-child(2) {
+    font-size: 1.4rem;
+  }
+  main section.middle div.amazing-team div.team-members {
+    max-width: 1200px;
+  }
+  main section.middle div.amazing-team div.team-members div.member {
+    margin: 1vh 1vw 1vh 1vw;
+  }
+  main section.middle div.amazing-team div.team-members div.member div.name h6 {
+    font-size: 1.1rem;
+  }
+  main section.middle div.amazing-team div.team-members div.member div.profession h6 {
+    font-size: 1.2rem;
+  }
+  main section.middle div.amazing-team div.team-members div.member div.contact-info div.contact span {
+    font-size: 1.2rem;
+  }
+  main section.middle div.amazing-team div.bottomText {
+    padding: 5vh 0vw 5vh 0vw;
+  }
+  main section.middle div.amazing-team div.bottomText h6 {
+    font-size: 1.2rem;
+  }
+  footer {
+    padding: 10vh 0px 0px 0px;
+  }
+  footer div.text-form.container.flex-container {
+    max-width: 1200px;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text {
+    max-width: 49%;
+    margin: 0px 2vw 0px 0px;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text h6.heading {
+    font-size: 2.3rem;
+    padding-bottom: 5vh;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text h6.subheading {
+    font-size: 1.5rem;
+    padding-bottom: 2vh;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts {
+    padding-top: 2vh;
+    text-align: center;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row {
+    padding-bottom: 5vh;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact {
+    width: 100%;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact div.contact-text h6 {
+    padding: 0px 0px 0px 0px;
+    font-size: 1.3rem;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact div.icon i {
+    padding: 0vh 1vw 0vh 0vw;
+    font-size: 1.3rem;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form {
+    max-width: 49%;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input {
+    font-size: 0.8rem;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(1), footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(2) {
+    padding: 2vh 0vw 2vh 2vw;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(3) {
+    padding: 2vh 0vw 10vh 2vw;
+  }
+  footer div.line {
+    margin-top: 7vh;
+  }
+  footer div.line h6 {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 4000px) {
+  body {
+    width: 100vw;
+  }
+  .container {
+    max-width: 2000px;
+  }
+  header {
+    padding-top: 3vh;
+  }
+  header div.container.flex-container div.burger-menu {
+    display: none;
+  }
+  header div.container.flex-container div.paper-escape div.paper-logo i {
+    font-size: 2.5rem;
+  }
+  header div.container.flex-container div.paper-escape div.escape {
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  header div.container.flex-container div.paper-escape div.escape h1 {
+    margin: 0 auto;
+    font-size: 2.5rem;
+    padding: 0px 0px 0px 0px;
+  }
+  header div.container.flex-container nav ul li a {
+    font-size: 2rem;
+  }
+  main section.intro {
+    width: 100vw;
+  }
+  main section.intro div.container.flex-container div:nth-child(1) {
+    padding-top: 25vh;
+  }
+  main section.intro div.container.flex-container div:nth-child(1) h2 {
+    font-size: 3rem;
+  }
+  main section.intro div.container.flex-container div:nth-child(2) h3 {
+    padding-top: 8vh;
+    padding-bottom: 13vh;
+    font-size: 7rem;
+  }
+  main section.intro div.container.flex-container div:nth-child(3) a button {
+    font-size: 3rem;
+    height: auto;
+    width: 20vw;
+  }
+  main section.middle div.container {
+    width: 100vw;
+  }
+  main section.middle div.container div.main-services {
+    margin: 5vh 2vw 0vh 2vw;
+  }
+  main section.middle div.container div.main-services div.main-services-icon {
+    text-align: left;
+    padding: 2vh 2vw 2vh 2vw;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.main-services div.main-services-icon i {
+    font-size: 18rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-title {
+    margin-bottom: 30px;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-title h6 {
+    font-size: 3.8rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-text p {
+    font-size: 2rem;
+  }
+  main section.middle div.container div.main-services div.main-services-title-text div.main-services-text p:nth-child(1) {
+    margin-bottom: 35px;
+  }
+  main section.middle div.container div.services ul {
+    margin-top: 15vh;
+    max-width: 100%;
+  }
+  main section.middle div.container div.services ul li {
+    width: 48%;
+    height: 20vh;
+    margin-bottom: 30px;
+  }
+  main section.middle div.container div.services ul li div.services-icon {
+    width: 10vw;
+    height: 10vh;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-name {
+    padding-bottom: 1vh;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-name h6 {
+    font-size: 3.5rem;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-text {
+    max-width: 100%;
+  }
+  main section.middle div.container div.services ul li div.services-name-text div.services-text h6 {
+    font-size: 2.2rem;
+  }
+  main section.middle div.container div.awesome-clients {
+    margin-top: 20vh;
+  }
+  main section.middle div.container div.awesome-clients div.upperText {
+    text-align: center;
+  }
+  main section.middle div.container div.awesome-clients div.upperText h6:nth-child(1) {
+    font-size: 4rem;
+  }
+  main section.middle div.container div.awesome-clients div.upperText h6:nth-child(2) {
+    font-size: 3rem;
+    padding-bottom: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto {
+    width: 100%;
+    margin-top: 7vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.foto {
+    width: 20vw;
+    height: 45vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-bottom: 2vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.foto img {
+    height: 100%;
+    width: 100%;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text {
+    width: 60%;
+    height: 20vh;
+    text-align: center;
+    padding: 1vh 1vh 1vh 1vh;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text div.quatation {
+    width: 98%;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text div.quatation h6 {
+    font-size: 2.4rem;
+  }
+  main section.middle div.container div.awesome-clients div.text-foto div.text div.author h6 {
+    font-size: 2.4rem;
+  }
+  main section.middle div.container div.logos {
+    margin: 25vh 0vw 15vh 0vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  main section.middle div.container div.logos div.logo {
+    width: 20%;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 2vh 2vw 2vh 2vw;
+  }
+  main section.middle div.container div.logos div.logo img {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+  }
+  main section.middle div.amazing-team {
+    width: 100vw;
+  }
+  main section.middle div.amazing-team div.upperText {
+    text-align: center;
+    margin-bottom: 15vh;
+  }
+  main section.middle div.amazing-team div.upperText h6:nth-child(1) {
+    padding-bottom: 3vh;
+    font-size: 4rem;
+  }
+  main section.middle div.amazing-team div.upperText h6:nth-child(2) {
+    font-size: 3rem;
+  }
+  main section.middle div.amazing-team div.team-members {
+    height: 50vh;
+  }
+  main section.middle div.amazing-team div.team-members div.member {
+    font-size: 3rem;
+    height: 100%;
+    margin: 1vh 1vw 1vh 1vw;
+  }
+  main section.middle div.amazing-team div.team-members div.member div.foto {
+    height: 45vh;
+    width: 20vw;
+  }
+  main section.middle div.amazing-team div.team-members div.member div.foto img {
+    width: 100%;
+    height: 100%;
+  }
+  main section.middle div.amazing-team div.team-members div.member div.name h6 {
+    font-size: 2rem;
+  }
+  main section.middle div.amazing-team div.team-members div.member div.profession h6 {
+    font-size: 2rem;
+  }
+  main section.middle div.amazing-team div.team-members div.member div.contact-info div.contact {
+    width: auto;
+    height: auto;
+  }
+  main section.middle div.amazing-team div.team-members div.member div.contact-info div.contact span {
+    font-size: 3rem;
+    padding: 10px 10px 10px 10px;
+  }
+  main section.middle div.amazing-team div.bottomText {
+    padding-top: 30vh;
+    padding-bottom: 15vh;
+  }
+  main section.middle div.amazing-team div.bottomText h6 {
+    font-size: 2rem;
+  }
+  footer {
+    padding: 5vh 0px 0px 0px;
+    width: 100%;
+  }
+  footer div.text-form.container.flex-container div.text-form {
+    width: 100%;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text {
+    max-width: 49%;
+    margin: 0px 0px 0px 0px;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text h6.heading {
+    font-size: 3rem;
+    padding-bottom: 3vh;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text h6.subheading {
+    font-size: 1rem;
+    padding-bottom: 3vh;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts {
+    padding-top: 2vh;
+    text-align: center;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row {
+    padding-bottom: 5vh;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact {
+    width: 100%;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact div.contact-text h6 {
+    padding: 0px 0px 0px 0px;
+    font-size: 0.85rem;
+  }
+  footer div.text-form.container.flex-container div.text-form div.text div.contacts div.contact-row div.contact div.icon i {
+    padding: 0vh 1vw 0vh 0vw;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form {
+    max-width: 20%;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input {
+    font-size: 0.8rem;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(1), footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(2) {
+    padding: 2vh 0vw 2vh 2vw;
+  }
+  footer div.text-form.container.flex-container div.text-form div.form form input:nth-child(3) {
+    padding: 2vh 0vw 10vh 2vw;
+  }
+  footer div.line {
+    margin-top: 7vh;
+  }
+  footer div.line h6 {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+/* @MEDIA ends here*/
